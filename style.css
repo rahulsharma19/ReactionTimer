@@ -1,0 +1,24 @@
+/*paragraph css*/
+p{ 
+    text-align: center;
+    color: red;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{ /*blinking the paragraph text*/
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+/*heading css*/
+h1{ 
+    color: blueviolet;
+    font-style: italic;
+    text-align: center; 
+}
+
+/*colorbox css*/
+#colorbox{ 
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
